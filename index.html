@@ -14,7 +14,6 @@
     h1 {
       text-align: center;
     }
-    
     .center {
       display: block;
       margin-left: auto;
@@ -25,17 +24,25 @@
       border-radius: 50%;
     }
     .column {
-  float: left;
-  width: 33.33%;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-    
+      float: left;
+      width: 28%;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: grey;
+    }
+    .vl {
+      border-left: 3px solid black;
+      border-right: 3px solid black;
+      height: 400px;
+    }
+    .hr {
+      border-top: 3px solid black;
+      border-bottom: 3px solid black;
+      width: 300px;
+    }
   </style>
-
 </head>
 <html>
   <body>
@@ -56,30 +63,30 @@
       interested in learning other programming languages and I am currently
       learning python through online resources.
     </p>
-<div class="column row:after">
-    <h2 >Skills</h2>
-    <h3>Languages</h3>
-    <ol>
-      <li>Javascript - intermediate</li>
-      <li>HTLM & CSS - beginner</li>
-      <li>Python - beginner</li>
-    </ol>
-    <h3>Tools</h3>
-    <ol>
-      <li>GitHub - intermediate</li>
-      <li>Visual Studio Code - intermediate</li>
-      <li>Jupiter - beginer</li>
-    </ol>
+    <div class="column row:after vl hr">
+      <h2>Skills</h2>
+      <h3>Languages</h3>
+      <ol>
+        <li>Javascript - intermediate</li>
+        <li>HTLM & CSS - beginner</li>
+        <li>Python - beginner</li>
+      </ol>
+      <h3>Tools</h3>
+      <ol>
+        <li>GitHub - intermediate</li>
+        <li>Visual Studio Code - intermediate</li>
+        <li>Jupiter - beginer</li>
+      </ol>
     </div>
-    <div class="column row:after">
-    <h2>Projects</h2>
+    <div class="column row:after vl hr">
+      <h2>Projects</h2>
     </div>
-    <div class="column row:after">
-    <h2>Contact</h2>
-    <ul>
-      <li>Cell no : 0642977982</li>
-      <li>Email : magomaanza@gmail.com</li>
-    </ul>
+    <div class="column row:after vl hr">
+      <h2>Contact</h2>
+      <ul>
+        <li>Cell no : 0642977982</li>
+        <li>Email : magomaanza@gmail.com</li>
+      </ul>
     </div>
   </body>
 </html>
