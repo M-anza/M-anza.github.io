@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(226, 207, 226);
+    background-color:deepskyblue;
     font-size: 20px;
     font-family: monospace;
     text-align: justify;
@@ -52,7 +52,7 @@ a  {
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color:pink;
+    background-color:hotpink;
 }
 ul {
     list-style-type: none ;
@@ -63,7 +63,7 @@ ul {
 header{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: pink;
+    background-color: hotpink;
 
 
 }
