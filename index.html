@@ -2,91 +2,85 @@
 
 <head>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <style>
-    body {
-      background-color: rgb(226, 207, 226);
-      font-size: 20px;
-      font-family: monospace;
-    }
-    p {
-      text-align: justify;
-    }
-    h1 {
-      text-align: center;
-    }
-    .center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-    }
-    img {
-      border-radius: 50%;
-    }
-    .column {
-      float: left;
-      width: 28%;
-    }
-    .row:after {
-      content: "";
-      display: table;
-      clear: grey;
-    }
-    .vl {
-      border-left: 3px solid black;
-      border-right: 3px solid black;
-      height: 400px;
-    }
-    .hr {
-      border-top: 3px solid black;
-      border-bottom: 3px solid black;
-      width: 300px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <html>
-  <body>
-    <img
-      src="/IMG-20220214-WA0016.jpg"
-      alt="My image"
-      style="width: 300px; height: 300px"
-      class="center"
-    />
-    <h1>About me</h1>
-    <p>
-      My name is Magoma Happy Anza and I am from Limpopo Thohoyandou. I
-      completed my matric in 2016 at Khwevha commercial school, I then went to
-      Vaal University of Technology and enroll for a diploma in Internal
-      Auditing. Due to my love for technology, I then enrolled in an online
-      course Data analyst with Coursera, after that I was fortunate enough to
-      get into an Umuzi Bootcamp and I am currently doing web development. I am
-      interested in learning other programming languages and I am currently
-      learning python through online resources.
-    </p>
-    <div class="column row:after vl hr">
-      <h2>Skills</h2>
-      <h3>Languages</h3>
-      <ol>
-        <li>Javascript - intermediate</li>
-        <li>HTLM & CSS - beginner</li>
-        <li>Python - beginner</li>
-      </ol>
-      <h3>Tools</h3>
-      <ol>
-        <li>GitHub - intermediate</li>
-        <li>Visual Studio Code - intermediate</li>
-        <li>Jupiter - beginer</li>
-      </ol>
-    </div>
-    <div class="column row:after vl hr">
-      <h2>Projects</h2>
-    </div>
-    <div class="column row:after vl hr">
-      <h2>Contact</h2>
+  <div>
+    <header>
       <ul>
-        <li>Cell no : 0642977982</li>
-        <li>Email : magomaanza@gmail.com</li>
+        <li><a href="#about">About me</a></li>
       </ul>
+      <ul>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+      <ul>
+        <li><a href="#project">Project</a></li>
+      </ul>
+      <ul>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+  </div>
+  <body>
+    <img src="/IMG-20220214-WA0016.jpg" alt="My image" class="center" />
+    <div>
+      <h1 id="about">About me</h1>
+      <p>
+        My name is Magoma Happy Anza and I am from Limpopo Thohoyandou. I
+        completed my matric in 2016 at Khwevha commercial school, I then went to
+        Vaal University of Technology and enroll for a diploma in Internal
+        Auditing. Due to my love for technology, I then enrolled in an online
+        course Data analyst with Coursera, after that I was fortunate enough to
+        get into an Umuzi Bootcamp and I am currently doing web development. I
+        am interested in learning other programming languages and I am currently
+        learning python through online resources.
+      </p>
     </div>
+    <div class="midContent">
+      <div id="Skills" class="Skills">
+        <h2 id="skills">Skills</h2>
+        <div class="skill">
+          <h3>Languages</h3>
+          <ol>
+            <li>Javascript- intermediate</li>
+            <li>HTLM & CSS- beginner</li>
+            <li>Python- beginner</li>
+          </ol>
+          <h3>Tools</h3>
+          <ol>
+            <li>GitHub- intermediate</li>
+            <li>Visual Studio Code- intermediate</li>
+            <li>Jupiter- beginer</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="Projects">
+        <h2 id="project">Projects</h2>
+      </div>
+      <div class="Contact">
+        <h2 id="contact">Contact</h2>
+        <ul>
+          <li>Cell no: 0642977982</li>
+          <li>Email: magomaanza@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/anza-magoma-a1b95b221/"
+            >Linkedin</a
+          >
+        </li>
+      </ul>
+      <ul>
+        <li><a href="https://www.instagram.com/happy_anza/">Instagram</a></li>
+      </ul>
+      <ul>
+        <li><a href="https://twitter.com/AnzaHappy">Twitter</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
