@@ -5,8 +5,16 @@ body {
   text-align: justify;
 }
 .midContent {
-  display: grid;
+  display: flexbox;
   grid-template-columns: 1fr 1fr 1fr;
+}
+.Projects {
+  margin-top: 5px;
+}
+
+.Contact {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 p {
   white-space: initial;
@@ -43,11 +51,13 @@ a {
     grid-template-columns: 1fr;
   }
   .Projects {
-    margin-top: 3px;
+    margin-top: 5px;
   }
   .Contact {
-    margin-top: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
+    
 }
 footer {
   display: grid;
@@ -63,7 +73,8 @@ ul {
   border: 3px solid black;
 }
 header {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: smaller;
+  display:grid;
+  grid-template-columns: 22% 22% 22% 22%;
   background-color: hotpink;
 }
