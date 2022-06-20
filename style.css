@@ -38,6 +38,7 @@ nav {
 }
 p {
   white-space: initial;
+
 }
 h1 {
   text-align: center;
@@ -112,16 +113,3 @@ a:hover{
    
   }
 
-/* .footer {
-  background-color: hotpink;
-}
-#footer{
-  list-style-type: none;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 0;
-}
-footer a i{
-  color:blue;
-} */
