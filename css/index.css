@@ -1,0 +1,102 @@
+body {
+    display: grid;
+    width: 100%;
+    margin: 0px;
+    background-color: rgba(255, 0, 212, 0.64);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.gridContainer {
+    display: grid;
+    width: 100%;
+    margin-top: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gridContainer div div ul li a {
+    font-size: 1.5em;
+}
+
+ul li {
+    list-style: none;
+}
+
+.content div h1 {
+    text-align: center;
+
+
+
+}
+
+footer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 80px;
+    align-items: center;
+}
+
+footer a i {
+    color: rgb(63, 209, 228)
+}
+
+img {
+    margin: 0 auto;
+    border-radius: 50%;
+    max-width:400px;
+    margin-top: 3px;
+
+}
+
+.topNavBar {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgba(0, 0, 0, 0.309);
+}
+
+.topBarMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.content {
+    display: grid;
+    margin: 0% 5% 0% 5%;
+}
+
+
+button {
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    border: solid;
+    height: 80px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    img {
+        margin-left: 0%;
+        margin-top: 5px;
+        border-radius: 50%;
+        width: 100%;
+    }
+
+    .gridContainer {
+        display: grid;
+    }
+
+    .topNavBar .icon {
+        float: right;
+        margin-right: 10%;
+    }
+
+}
