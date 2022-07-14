@@ -45,10 +45,11 @@ footer a i {
 }
 
 img {
-    margin: 0 auto;
+    margin: auto;
     border-radius: 50%;
     max-width:400px;
     margin-top: 3px;
+    
 
 }
 
