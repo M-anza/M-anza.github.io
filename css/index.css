@@ -36,7 +36,7 @@ footer {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: rgba(242, 48, 203, 0.486);
+    background-color: rgba(0, 0, 0, 0.486);
     height: 80px;
     align-items: center;
     bottom:0;
