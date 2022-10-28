@@ -41,6 +41,7 @@ footer {
     align-items: center;
     bottom:0;
     width:100%;
+    justify-items: center;
 }
 
 footer a i {
