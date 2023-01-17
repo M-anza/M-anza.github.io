@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
 .header {
 
     overflow: hidden;
@@ -13,8 +11,6 @@
     padding: 20px 10px;
 
 }
-
-
 
 .header a {
 
@@ -36,45 +32,30 @@
 
 }
 
-
-
 .header a.home {
 
     font-size: 25px;
-
     font-weight: bold;
-
 }
-
-
 
 .header a:hover {
 
     background-color: #3704509b;
-
     color: rgb(0, 0, 0);
-
 }
-
-
-
+/* .header a.CV {
+background-color: #500404fd;
+} */
 .header a.active {
 
     background-color: #626ca3;
-
     color: white;
-
 }
-
-
 
 .header a:not(:first-child) {
 
     float: right;
-
 }
-
-
 
 .header .icon {
     display: none;
