@@ -11,12 +11,14 @@ body {
     top: 5px;
     left: 5px;
     text-align: center;
+    /* grid-gap: 150px; */
 }
 
 .gridContainer {
-    display: grid;
+    display:flex;
     width: 100%;
     margin-top: 0%;
+    /* grid-gap: 150px; */
 }
 
 a {
@@ -65,7 +67,7 @@ footer a i {
 img {
     margin: auto;
     border-radius: 50%;
-    max-width:400px;
+    max-width:200px;
     margin-top:15px;
     margin-bottom:30px
 
@@ -107,11 +109,12 @@ textarea {
         margin: auto;
         margin-top: 15px;
         border-radius: 50%;
-        width: 100%;
+        width: 50%;
     }
 
     .gridContainer {
         display: grid;
+        grid-gap: 150px;
     }
 
     .topNavBar .icon {

@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.header {
+.fixed-header {
 
     overflow: hidden;
 
@@ -12,7 +12,7 @@
 
 }
 
-.header a {
+.fixed-header a {
 
     float: left;
 
@@ -32,42 +32,40 @@
 
 }
 
-.header a.home {
+.fixed-header a.home {
 
     font-size: 25px;
     font-weight: bold;
 }
 
-.header a:hover {
+.fixed-header a:hover {
 
     background-color: #3704509b;
     color: rgb(0, 0, 0);
 }
-/* .header a.CV {
-background-color: #500404fd;
-} */
-.header a.active {
+
+.fixed-header a.active {
 
     background-color: #626ca3;
     color: white;
 }
 
-.header a:not(:first-child) {
+.fixed-header a:not(:first-child) {
 
     float: right;
 }
 
-.header .icon {
+.fixed-header .icon {
     display: none;
 }
 
 @media screen and (max-width: 550px) {
 
-    .header a:not(:first-child) {
+    .fixed-header a:not(:first-child) {
         display: none;
     }
 
-    .header a.icon {
+    .fixed-header a.icon {
 
         float: right;
 
@@ -79,11 +77,11 @@ background-color: #500404fd;
 
     @media screen and (max-width: 550px) {
 
-        .header.responsive {
+        .fixed-header.responsive {
             position: relative;
         }
 
-        .header.responsive a.icon {
+        .fixed-header.responsive a.icon {
 
             position: absolute;
 
@@ -93,7 +91,7 @@ background-color: #500404fd;
 
         }
 
-        .header.responsive a {
+        .fixed-header.responsive a {
 
             float: none;
 
@@ -103,7 +101,7 @@ background-color: #500404fd;
 
         }
 
-        .header.header.responsive a.home {
+        .fixed-header.header.responsive a.home {
 
             margin-top: 15.85px;
 
