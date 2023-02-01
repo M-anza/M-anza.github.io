@@ -15,13 +15,12 @@
 
 .fixed-header a {
 
-    float: left;
 
     color:rgba(29, 20, 20, 0.63);
 
     text-align: center;
 
-    padding: 14px 14px;
+    padding: 14px 16px;
 
     text-decoration: none;
 
@@ -54,26 +53,26 @@
 
 .fixed-header {
 
-   display: flex;
+   display:flex;
    justify-content: space-between;
 
 }
 
 .fixed-header .icon {
-    display: none;
+    display:none;
 }
 
 @media screen and (max-width: 550px) {
 
     .fixed-header a:not(:first-child) {
-        display: none;
+        display:flex;
     }
 
     .fixed-header a.icon {
 
         float: right;
 
-        display: block;
+        display:flexbox;
 
     }
 
@@ -82,12 +81,12 @@
     @media screen and (max-width: 550px) {
 
         .fixed-header.responsive {
-            position: relative;
+            position:fixed;
         }
 
         .fixed-header.responsive a.icon {
 
-            position: absolute;
+            position:fixed;
 
             right: 0;
 
@@ -99,7 +98,7 @@
 
             float: none;
 
-            display: block;
+            display:flex;
 
             text-align: center;
 
