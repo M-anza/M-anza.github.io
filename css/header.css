@@ -54,27 +54,29 @@
   .fixed-header a:not(:first-child) {
     display: flex;
   }
-
+.fixed-header{
+  position:absolute;
+}
   .fixed-header a.icon {
     float: right;
 
     display: flexbox;
   } */
-}
-  /* @media screen and (max-width: 550px) {
+
+ 
     .fixed-header.responsive {
       position: relative;
     }
 
     .fixed-header.responsive a.icon {
-      /* position:fixed; */
-      /* display: block;
+      position:fixed;
+      display: block; 
       position: absolute;
 
       right: 0;
 
       top: 0;
-    }
+    } 
 
     .fixed-header.responsive a {
       float: none;
@@ -87,5 +89,5 @@
     .fixed-header.header.responsive a.home {
       margin-top: 15.85px;
     }
-  } */
-/* } */
+   
+} 
