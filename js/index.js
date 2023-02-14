@@ -9,7 +9,7 @@ function myFunction(){
 
 
 function myFunction() {
-    var x = document.getElementsByClassName("menuItems");
+    let x = document.getElementsByClassName("menuItems");
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
