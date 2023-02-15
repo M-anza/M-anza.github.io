@@ -3,7 +3,7 @@
                         } 
                         
                         .fixed-header { 
-                         overflow: hidden; 
+                         /* overflow: hidden;  */
                              background-color: var(--primary-colour);
                             padding: 20px 10px;
                         }
