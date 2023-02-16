@@ -15,3 +15,9 @@ function toggleMenu() {
      x.classList.toggle("active") 
      
   }
+  let anch = document.getElementsByClassName("anch");
+  console.log(anch[0])
+  
+  anch[0].addEventListener("click",()=>{toggleMenu
+    console.log(anch[0])
+});

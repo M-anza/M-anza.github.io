@@ -3,7 +3,6 @@
                         } 
                         
                         .fixed-header { 
-                         /* overflow: hidden;  */
                              background-color: var(--primary-colour);
                             padding: 20px 10px;
                         }
@@ -48,7 +47,7 @@
                                 height: 90px;
                             }
                             .fixed-header a:not(:first-child) {
-                                display: flex;
+                                display:flex;
                             }
                             .fixed-header a.icon {
                                 float: right;
@@ -73,18 +72,22 @@
                                 margin-top: 15.85px;
                             }
                             .menuItems {
-                                position: absolute;
+                                position:absolute;
                                 top: 90px;
                                 transform: translateX(-100%);
                                 left: 0;
                                 width: 100vw;
                                 background-color: #626ca3;
                                 display: block;
+                                /* margin-bottom: 50px; */
+                                padding: 14px 16px;
+                                z-index: 10;
+                                
                             }
                             .menuItems.active {
                                 transform: translateX(0);
                             } 
-                         } 
+                        }
                      
                         
                          
