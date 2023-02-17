@@ -1,6 +1,10 @@
                           :root {
                             --primary-colour: rgba(242, 48, 203, 0.486);
                         } 
+                        #my-header {
+                            display: grid;
+                            grid-template-columns: 2;
+                          }
                         
                         .fixed-header { 
                              background-color: var(--primary-colour);
@@ -45,32 +49,47 @@
                              .fixed-header {
                                 position: relative;
                                 height: 90px;
+                                /* display: grid;
+  grid-template-columns: 2; */
                             }
-                            .fixed-header a:not(:first-child) {
+                            /* #my-header {
+                                display: grid;
+                                grid-template-columns: 2;
+                              } */
+                            #menu {
+                                grid-column: 2/3;
+                                text-align: left;
+                              }
+                              
+                              #menu:hover {
+                                grid-column: 2/3;
+                                color: red;
+                              }
+                            /* .fixed-header a:not(:first-child) {
                                 display:flex;
-                            }
-                            .fixed-header a.icon {
+                            } */
+                            /* .fixed-header a.icon {
                                 float: right;
                                 display: flexbox;
-                            } 
+                            }  */
                              .fixed-header.responsive {
                                 position: relative;
                             } 
-                             .fixed-header.responsive a.icon {
+                             /* .fixed-header.responsive a.icon {
                                 position: fixed;
                                 display: block;
                                 position: absolute;
                                 right: 0;
                                 top: 0;
-                            }
-                            .fixed-header.responsive a {
+                            } */
+                            /* .fixed-header.responsive a {
                                 float: none;
                                 display: flex;
                                 text-align: center;
                             }
                             .fixed-header.header.responsive a.home {
                                 margin-top: 15.85px;
-                            }
+                            } */
                             .menuItems {
                                 position:absolute;
                                 top: 90px;
@@ -87,6 +106,35 @@
                             .menuItems.active {
                                 transform: translateX(0);
                             } 
+                            a {
+                                text-decoration: none;
+                                /* background-color: aqua; */
+                                margin-top: 20px;
+                                padding: 15px 60% 15px 60%;
+                              }
+                              #menuBar{
+                              visibility: visible;
+                              z-index: auto;
+                            }
+                            ul {
+                                list-style: none;
+                                list-style-type: none;
+                                text-decoration: none;
+                              }
+                              
+                              li {
+                                width: 60%;
+                                padding-top: 15px;
+                                padding-bottom: 15px;
+                                margin-top: 15px;
+                              }
+                              
+                              li:hover {
+                                background-color: blue;
+                                font-weight: bold;
+                              }
+                              
+                              
                         }
                      
                         

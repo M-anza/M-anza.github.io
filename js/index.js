@@ -7,17 +7,35 @@
 //     }
 // }
 
-let harmburgerMenu = document.getElementById("menu");
-harmburgerMenu.addEventListener("click",toggleMenu);
-function toggleMenu() {
-    let x = document.querySelector(".menuItems");
-    console.log(x.classList)
-     x.classList.toggle("active") 
-     
-  }
-  let anch = document.getElementsByClassName("anch");
-  console.log(anch[0])
+// let harmburgerMenu = document.getElementById("menu");
+// harmburgerMenu.addEventListener("click",toggleMenu);
+// function toggleMenu() {
+//     let x = document.querySelector(".menuItems");
+//     console.log(x.classList)
+//      x.classList.toggle("active");     
+  // }
+  // function showOrHideNav(navmenu) {
+  //   if (navmenu.style.display === "") navmenu.style.display = "none";
+  //   else if (navmenu.style.display === "none") navmenu.style.display = "";
+  // }
+function showOrHideNav(menuBar) {
+  if (menuBar.style.display === "") menuBar.style.display = "none";
+  else if (menuBar.style.display === "none") menuBar.style.display = "";
+}
   
-  anch[0].addEventListener("click",()=>{toggleMenu
-    console.log(anch[0])
-});
+  window.onload = function () {
+    const menuBar = document.getElementById("menuBar");
+    const menu = document.getElementsById("menu");
+    const mylinks = document.getElementsByTagName("a");
+  
+    hamburger.addEventListener("click", () => {
+      showOrHideNav(menuBar);
+    });
+  
+    for (const link of mylinks) {
+      link.addEventListener("click", () => {
+        showOrHideNav(menuBar);
+      });
+    }
+  };
+  
