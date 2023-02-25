@@ -16,6 +16,7 @@
   padding: 15px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin-right: 90px;
 
 }
 
@@ -39,8 +40,8 @@
     float: right;
     display: block;
   }
-}
-@media screen and (max-width: 600px) {
+
+
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -52,6 +53,6 @@
     display: block;
     text-align: left;
   }
+
 }
-    
      
