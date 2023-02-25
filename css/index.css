@@ -6,19 +6,20 @@ body {
   
 }
 .icon {
-    padding-right: 250px;
+    padding-right: 100px;
+    padding-left: 70px;
     position: relative;
     top: 5px;
     left: 5px;
     text-align: center;
-    /* grid-gap: 150px; */
+    
 }
 
 .gridContainer {
     display:flex;
     width: 100%;
     margin-top: 0%;
-    /* grid-gap: 150px; */
+   
 }
 
 a {
@@ -31,6 +32,7 @@ a {
 
 ul li {
     list-style: none;
+    
 }
 ol li {
     list-style-type: circle;
@@ -102,12 +104,17 @@ textarea {
     height: 80px;
 }
 
-
+.skillsItem{
+   
+    padding:30px;
+   
+    word-spacing:25px;
+}
 
 @media screen and (max-width: 1024px) {
     img {
         margin: auto;
-        /* margin-top: 15px; */
+        margin-top: 15px;
         border-radius: 50%;
         width: 50%;
     }
@@ -120,6 +127,11 @@ textarea {
     .topNavBar .icon {
         float: right;
         margin-right: 10%;
+    }
+    
+    .icon{
+        text-align: center;
+        
     }
 
 }
