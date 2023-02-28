@@ -131,7 +131,11 @@ textarea {
     
     .icon{
         text-align: center;
+        margin-bottom: 50px;
         
+    }
+    p{
+        margin-bottom: 70px;
     }
 
 }
