@@ -143,8 +143,9 @@ h1{
     }
 
     .topNavBar .icon {
-        float: right;
+        /* float: right; */
         margin-right: 10%;
+        text-align:right;
     }
     
     .icons{
@@ -173,4 +174,17 @@ h1{
         padding-left: 100px;
         margin-bottom: 50px;
     }
+    /* .hambuger{
+        /* display: flex; */
+        /* position: relative; */
+        /* float:inline-end; */
+        /* padding-right: 90px; */
+        /* padding-left: 70px; */
+        /* position: relative; */
+        /* top: 5px; */
+        /* left: 5px; */
+        /* margin: 20px 30px; */
+        /* margin-bottom: 100px; */
+        /* text-align: center; */
+    } */
 }
