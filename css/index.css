@@ -14,6 +14,15 @@ body {
     text-align: center;
     
 }
+.icons{
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    position: relative;
+    top: 5px;
+    /* left: 5px; */
+    margin-top: -50px;
+}
 
 .gridContainer {
     display:flex;
@@ -70,10 +79,7 @@ img {
     margin: auto;
     border-radius: 50%;
     max-width:200px;
-    margin-top:15px;
-    margin-bottom:30px
-
-
+    margin-top:20px;
 }
 
 .topNavBar {
@@ -105,23 +111,25 @@ textarea {
 }
 
 .skillsItem{
-   
-    padding:30px;
-   
+   margin-bottom: 50px;
+    padding-bottom:10px;
     word-spacing:25px;
 }
+
 .contactStyle{
     text-align: center;
     padding:30px;
 }
 .Happy{
     text-align: center;
-    padding:30px;
+    /* padding:30px; */
+    padding-left: 30px;
 }
 h1{
     text-align: center;
+    margin: 50px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
     img {
         margin: auto;
         margin-top: 15px;
@@ -139,16 +147,30 @@ h1{
         margin-right: 10%;
     }
     
-    .icon{
-        text-align:start;
+    .icons{
         margin-bottom: 50px;
-       
+        padding-right: 100px;
+        position: relative;
+        top: 5px;
+        /* padding-left: 100px; */
     }
     p{
         margin-bottom: 70px;
     }
     .skillsItem{
-   text-align: start;
         margin-top: -30px;
-    }   
+    }
+    .skillsPage{
+        margin-left: -10em;
+    } 
+    h1{
+        text-align: center;
+        padding-left: 100px;
+        margin-bottom: 40px;
+    }  
+    h2{
+        text-align: center; 
+        padding-left: 100px;
+        margin-bottom: 50px;
+    }
 }
