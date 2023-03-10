@@ -127,6 +127,9 @@ h1{
     text-align: center;
     /* margin: 50px; */
 }
+.skills{
+        margin-top: 50px;
+}
 @media screen and (max-width: 1200px) {
     img {
         margin: auto;
