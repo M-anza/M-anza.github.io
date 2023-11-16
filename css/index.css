@@ -2,9 +2,12 @@ body {
     display: grid;
     width: 100%;
     margin: 0px;
-    background:#f6a0f329;
-  
+    background-image: url('../images/E1lZrlkVcAMBwPs.jpg_large');
+    color:aqua;
+ 
 }
+
+
 .icon {
     padding-right: 100px;
     padding-left: 70px;
@@ -62,7 +65,7 @@ footer {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: rgb(0, 0, 0);
+   
     height:50px;
     align-items: center;
     bottom:0;
@@ -80,6 +83,11 @@ img {
     max-width:200px;
     margin-top:20px;
 }
+
+/* p {
+  background-image: url('img_girl.jpg');
+} */
+
 
 .topNavBar {
     display: grid;
@@ -122,6 +130,7 @@ textarea {
 .Happy{
     text-align: center;
     padding-left: 30px;
+    
 }
 h1{
     text-align: center;
