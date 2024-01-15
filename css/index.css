@@ -149,10 +149,30 @@ textarea {
 }
 h1{
     text-align: center;
+    /* margin: 50px; */
 }
 .skills{
         margin-top: 50px;
 }
+.loader-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid navy; /* Blue */
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+    animation: spin 5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
 @media screen and (max-width: 1200px) {
     img {
         margin: auto;
@@ -200,5 +220,5 @@ h1{
         padding-left: 100px;
         margin-bottom: 50px;
     }
-  
+    
 }
