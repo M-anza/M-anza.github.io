@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,64 +12,85 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" >
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-        <link rel="icon" type="image/x-icon" href="/images/images.jpg">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="icon" type="image/x-icon" href="/images/images.jpg">
+    
+    <style>
+      .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px; 
+        padding: 20px;
+      }
+      
+      .skill-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: sans-serif;
+        font-weight:bold;
+        font-size: 14px;
+        color:black;
+        min-width: 80px;
+      }
+      
+      .skill-item i {
+        font-size: 32px !important;
+        font-weight:bold;
+        color: black;
+        margin-bottom: 8px;
+      }
+    </style>
 </head>
 
 <body>
-<div class="topnav" id="myTopnav">
-      <a href="../index.html"><i class="fa fa-user"></i></a>
-     <a href="../about/about.html "><i class="fa fa-home"style="color:lightseagreen"></i></a>
-     <a href="./skills/skills.html " class="active"><i class="fa fa-wrench" style="color:lightseagreen"></i></a>
-     <a href="../contact/contact.html "><i class="fa fa-phone" style="color:lightseagreen"></i></a>
-     <a href="../projects/projects.html "><i class="fa fa-tasks" style="color:lightseagreen"></i></a>
-     <a href="../resources/Magoma_Happy_Anza_CV_Dev.pdf " target="_blank" rel="external"><i class="fas fa-download" style="color:lightseagreen"></i></a>
-    <a href="javascript:void(0); " class="icon " onclick="myFunction() ">
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html"><i class="fa fa-user"></i></a>
+        <a href="../about/about.html"><i class="fa fa-home" style="color:black"></i></a>
+        <a href="./skills/skills.html" class="active"><i class="fa fa-wrench" style="color:black"></i></a>
+        <a href="../projects/projects.html"><i class="fa fa-tasks" style="color:black"></i></a>
+        <a href="../contact/contact.html"><i class="fa fa-phone" style="color:black"></i></a>
+      
+       
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
-   
+
     <div class="content">
-    
         <div class="skillsPage">
-           
-            <div class="icons">
-                <h1 class="skills">Skills</h1>
-                <h2>Languages & Tools</h2>
-                
-                <div class ="skillsItem">
-                   
-                   <ul>
-                   <li><i class='fab fa-js' style='font-size:70px'></i> Javascript</li>
-                   <li><i class='fab fa-html5' style='font-size:70px'></i> HTML</li>
-                   <li><i class='fab fa-css3' style='font-size:70px'></i> CSS </li>
-                   <li><i class='fab fa-python' style='font-size:70px'></i> Python</li>
-                   <li><i class='fa fa-github' style='font-size:70px'></i> Github</li>
-                
-                </ul>
-                </div>
-            
+            <h1 class="skills" style="text-align:center; margin-bottom: 20px;">Skills</h1>
+            <div class="skills-container">
+                <div class="skill-item"><i class='fab fa-js'></i>JavaScript</div>
+                <div class="skill-item"><i class='fab fa-python'></i>Python</div>
+                <div class="skill-item"><i class='fa fa-database'></i>SQL / MySQL</div>
+                <div class="skill-item"><i class='fab fa-react'></i>React.js</div>
+                <div class="skill-item"><i class='fas fa-code'></i>Next.js</div>
+                <div class="skill-item"><i class='fab fa-html5'></i>HTML</div>
+                <div class="skill-item"><i class='fab fa-css3'></i>CSS</div>
+                <div class="skill-item"><i class='fab fa-node-js'></i>Node.js</div>
+                <div class="skill-item"><i class='fas fa-server'></i>Express.js</div>
+                <div class="skill-item"><i class="fab fa-github"></i>GitHub / Git</div>
+                <div class="skill-item"><i class='fas fa-vial'></i>Jest / Jasmine</div>
+                <div class="skill-item"><i class="fab fa-docker"></i> Docker</div>
+                <div class="skill-item"><i class='fas fa-code'></i>VS Code</div>
+                <div class="skill-item"><i class='fas fa-tasks'></i>Scrum / Agile</div>
+                <div class="skill-item"><i class='fas fa-layer-group'></i>Redux</div>
+                <div class="skill-item"><i class='fas fa-mobile-alt'></i>Expo</div>
+                <div class="skill-item"><i class='fas fa-paint-brush'></i>Material-UI</div>
             </div>
         </div>
     </div>
 
     <div class="footer">
         <footer>
-          
-                    <a href= "https://github.com/M-anza" target="_blank" rel="external"><i class="fab fa-github"></i></a>
-                
-                <a href="https://www.linkedin.com/in/anza-magoma-a1b95b221/" target="_blank" rel="external"><i class="fab fa-linkedin-in" ></i></a>
-                
-                <a href="https://www.instagram.com/happy_anza/" target="_blank" rel="external"><i class="fab fa-instagram"></i></a>
-                
-                    <a href="https://twitter.com/AnzaHappy" target="_blank" rel="external"><i class="fab fa-twitter"></i></a>
-                
+            <a href="https://github.com/M-anza" target="_blank" rel="external"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/anza-magoma-a1b95b221/" target="_blank" rel="external"><i class="fab fa-linkedin-in"></i></a>
+           
         </footer>
-    
     </div>
     <script src="../js/index.js"></script>
 </body>
-
 
 </html>
